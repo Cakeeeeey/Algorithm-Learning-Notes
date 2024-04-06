@@ -106,6 +106,7 @@ class node:  # 节点类
         datas_l = self.datas[index_l, :]  # 左侧特征
         datas_r = self.datas[index_r, :]  # 右侧特征
 
+
         # 输出分割结果
         print("将 %d 分割为 %d 与 %d 特征索引值： %d 分割阈值：%.2f" % (
             len(self.labs), len(labs_l), len(labs_r), ind_fea, threshold))

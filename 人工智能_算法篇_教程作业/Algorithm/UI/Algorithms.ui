@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>797</width>
+    <height>587</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -66,13 +66,55 @@
      <string>Cart分类树</string>
     </property>
    </widget>
+   <widget class="QPushButton" name="Bayes">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>190</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>朴素贝叶斯</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>290</y>
+      <width>91</width>
+      <height>89</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>逻辑回归</string>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="LogisticRegression_test1">
+       <property name="text">
+        <string>实验一</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="LogisticRegression_test2">
+       <property name="text">
+        <string>实验二</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>797</width>
      <height>22</height>
     </rect>
    </property>
